@@ -1,0 +1,43 @@
+/* Fichier CSS de la page "Soft button hover effects", 
+Date de debut de projet: 13/11/2020,
+Date de fin de projet : 13/11/2020,
+Temps de confection : 10 minutes,
+Créateur: Wsai */
+
+
+
+@import url( 'https://fonts.googleapis.com/css? family=Poppins:100,200,300,400,500,600,700,800,900&diplay=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #111;
+}
+
+a{
+   position: relative; 
+   width: 180px;
+   height: 60px;
+   color: #fff;
+   text-decoration: none;
+   text-transform: uppercase;
+   text-align: center;
+   line-height: 60px;
+   letter-spacing: 2px;
+   margin: 20px;
+   transition: 0.5s;
+}
+
+a:hover{
+    background: #ec0b36;
+}
